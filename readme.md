@@ -8,10 +8,7 @@ This is the back end for an e-commerce site. It uses Node.js, Express.js, and Se
 
 1. Clone the repository.
 2. Run `npm install` to install the necessary dependencies.
-3. Create a `.env` file in the root directory of the project with the following variables:
-   * `DB_NAME='ecommerce_db'`
-   * `DB_USER=<your MySQL username>`
-   * `DB_PW=<your MySQL password>`
+3. Change the credentials on line 7 of the "connection.js" that says "your_username" and "your_password" to allow the application to log in.
 4. Open MySQL shell and run the following command to create the database: `source db/schema.sql`
 5. Seed the database by running the following command: `npm run seed`
 6. Start the server by running `npm start` or `node server.js`.
